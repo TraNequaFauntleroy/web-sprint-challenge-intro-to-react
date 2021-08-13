@@ -1,10 +1,11 @@
 // This is for the fake API. Do not delete!
-import { ThemeProvider } from 'styled-components';
-import theme from './theme'
+import App from "./App";
 import React from "react";
 import ReactDOM from "react-dom";
+//import styling
+import { ThemeProvider } from 'styled-components';
+import theme from './theme'
 import "./index.css";
-import App from "./App";
 
 import { worker } from "./mocks/browser";
 worker.start();
